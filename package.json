@@ -1,0 +1,24 @@
+{
+    "name": "api_cyoa",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+        "json-server": "^0.17.0",
+        "node": "^17.7.2"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Koumori97/CYOA_API.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Koumori97/CYOA_API/issues"
+    },
+    "homepage": "https://github.com/Koumori97/CYOA_API#readme"
+}
