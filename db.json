@@ -20,6 +20,7 @@
             "options": [
                 {
                     "text": "Take the lockpick, might come in handy.",
+                    "setItem": { "lockpick": true },
                     "nextPage": 3
                 },
                 {
@@ -28,7 +29,7 @@
                 }
             ]
         },
-		{
+        {
             "page": 3,
             "text": "After a few minutes of walking, you notice a door coming up ahead to the right of the passage.",
             "options": [
