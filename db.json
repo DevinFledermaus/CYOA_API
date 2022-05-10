@@ -35,11 +35,11 @@
             "options": [
                 {
                     "text": "Check the door",
-                    "nextPage": 4
+                    "nextPage": -1
                 },
                 {
                     "text": "Carry on walking.",
-                    "nextPage": 4
+                    "nextPage": -1
                 }
             ]
         }
