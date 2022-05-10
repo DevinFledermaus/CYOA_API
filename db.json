@@ -2,29 +2,43 @@
     "story-texts": [
         {
             "page": 1,
-            "text": "Lorem ipsum",
+            "text": "You start awake, with only a flame clinging to a stonewall to provide light.Registering the cold, you find yourself sitting against a bare stonewall and floor, at the end of a passage. You try to collect your thoughts but cant remember anything, your mind goes blank eveytime you try to recall any memory. You stand up and notice a glint of something at the end of the light's reach. You stand up and grab the torch.",
             "options": [
                 {
-                    "text": "Lorem ipsum",
+                    "text": "Inspect the unknown object.",
                     "nextPage": 2
                 },
                 {
-                    "text": "Lorem ipsum",
-                    "nextPage": 2
+                    "text": "Ignore the unknown object",
+                    "nextPage": 3
                 }
             ]
         },
         {
             "page": 2,
-            "text": "Lorem ipsum",
+            "text": "Upon inspecting the object you find out it's a lockpick and torque wrench",
             "options": [
                 {
-                    "text": "Lorem ipsum",
+                    "text": "Take the lockpick, might come in handy.",
                     "nextPage": 3
                 },
                 {
-                    "text": "Lorem ipsum",
+                    "text": "Ignore the lockpick and start walking.",
                     "nextPage": 3
+                }
+            ]
+        },
+		{
+            "page": 3,
+            "text": "After a few minutes of walking, you notice a door coming up ahead to the right of the passage.",
+            "options": [
+                {
+                    "text": "Check the door",
+                    "nextPage": 4
+                },
+                {
+                    "text": "Carry on walking.",
+                    "nextPage": 4
                 }
             ]
         }
