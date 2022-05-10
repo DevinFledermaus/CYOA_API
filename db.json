@@ -21,9 +21,6 @@
                 {
                     "text": "Take the lockpick, might come in handy.",
                     "setItem": { "lockpick": true },
-                    "setWeapon": { "knife": true },
-                    "setSkill": { "B and E": true },
-                    "setAbility": { "sneak": true },
                     "nextPage": 3
                 },
                 {
