@@ -43,5 +43,52 @@
                 }
             ]
         }
+    ],
+    "skills": [
+        {
+            "name": "whatever",
+            "description": "lorem ipsum"
+        },
+        { "": "" },
+        { "": "" },
+        { "": "" },
+        { "": "" },
+        { "": "" },
+        { "": "" },
+        { "": "" },
+        { "": "" },
+        { "": "" }
+    ],
+    "abilities": [
+        {
+            "name": "Replicate",
+            "description": "Create free thinking clones of yourself",
+            "cost": 1
+        },
+        {
+            "name": "Spatial Gate",
+            "description": "Teleport to any previously visited locations",
+            "cost": 3
+        },
+        {
+            "name": "Spatial Dash",
+            "description": "Teleport to a location within set, within a range",
+            "cost": 1
+        }
+    ],
+    "weapons": [
+        {
+            "name": "Excalibur",
+            "description": "lorem ipsum"
+        },
+        { "": "" },
+        { "": "" },
+        { "": "" },
+        { "": "" },
+        { "": "" },
+        { "": "" },
+        { "": "" },
+        { "": "" },
+        { "": "" }
     ]
 }
