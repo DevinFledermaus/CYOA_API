@@ -49,15 +49,10 @@
             "name": "whatever",
             "description": "lorem ipsum"
         },
-        { "": "" },
-        { "": "" },
-        { "": "" },
-        { "": "" },
-        { "": "" },
-        { "": "" },
-        { "": "" },
-        { "": "" },
-        { "": "" }
+        {
+            "name": "whatever2",
+            "description": "lorem ipsum"
+        }
     ],
     "abilities": [
         {
@@ -79,16 +74,13 @@
     "weapons": [
         {
             "name": "Excalibur",
-            "description": "lorem ipsum"
+            "description": "lorem ipsum",
+            "requirements": "Skill required"
         },
-        { "": "" },
-        { "": "" },
-        { "": "" },
-        { "": "" },
-        { "": "" },
-        { "": "" },
-        { "": "" },
-        { "": "" },
-        { "": "" }
+        {
+            "name": "Excalibur2",
+            "description": "lorem ipsum2",
+            "requirements": "Skill2 required"
+        }
     ]
 }
