@@ -87,7 +87,7 @@
 		{
 			"page": 6,
 			"text": "Shaking yourself back to reality, you get to your feet.",
-			"option": [
+			"options": [
 				{
 					"text": "head over to grab the torch and start down the passage",
 					"nextPage": 3
