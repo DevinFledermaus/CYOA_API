@@ -20,7 +20,7 @@
             "options": [
                 {
                     "text": "Take the lockpick, might come in handy.",
-                    "setItem": { "lockpick": true },
+                    "setItem": { "lockpick": true, "apples": true },
                     "nextPage": 3
                 },
                 {
