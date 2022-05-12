@@ -57,21 +57,80 @@
 			"text": "Nourished after eating you carry on walking",
 			"options": [
 				{
-					"text": "You go invisible",
-					"requireSkill": {}
+					"text": "You go invisible"
 				}
 			]
 		}
     ],
     "skills": [
         {
-            "name": "whatever",
+            "name": "Bladed Weapon Novice",
             "description": "lorem ipsum"
         },
         {
-            "name": "whatever2",
+            "name": "Blunt Weapon Novice",
             "description": "lorem ipsum"
-        }
+        },
+		{
+			"name": "Marksman Novice",
+			"description": "lorem ipsum"
+		},
+		{
+			"name": "Brawl Novice",
+			"description":"lorem ipsum"
+		},
+		{
+            "name": "Bladed Weapon Expert",
+            "description": "lorem ipsum"
+        },
+        {
+            "name": "Blunt Weapon Expert",
+            "description": "lorem ipsum"
+        },
+		{
+			"name": "Marksman Expert",
+			"description": "lorem ipsum"
+		},
+		{
+			"name": "Brawl Expert",
+			"description":"lorem ipsum"
+		},
+		{
+            "name": "Bladed Weapon Master",
+            "description": "lorem ipsum"
+        },
+        {
+            "name": "Blunt Weapon Master",
+            "description": "lorem ipsum"
+        },
+		{
+			"name": "Marksman Master",
+			"description": "lorem ipsum"
+		},
+		{
+			"name": "Brawl Master",
+			"description":"lorem ipsum"
+		},
+		{
+			"name": "Sneak",
+			"description": "Allows you to remain undetected while traversing"
+		},
+		{
+			"name": "Tracking",
+			"description": "Allows you to make the correct choice of path, locate a person or object and read footprints or tracks."
+		},
+		{
+			"name": "Survival",
+			"description": "Allows you to "
+		},
+		{
+			"name": "Sixth-sense",
+			"description": "Will warn of imminent danger, can also give insight to a person or object's true purpose."
+		},
+		{
+			"name": "Camouflage",
+			"description": "Allows you to blend in with your surroundings. In cities or towns, it allows you to look and sound like a native."
+		}
     ],
     "abilities": [
         {
@@ -88,18 +147,89 @@
             "name": "Spatial Dash",
             "description": "Teleport to a location within set, within a range",
             "cost": 1
-        }
+        },
+		{
+			"name": "Illusion Weaving",
+			"description": "Allows you to target 1 or all five senses and deploy false sensations to a targeted being.",
+			"cost": 1
+		},
+		{
+			"name": "Mimicry",
+			"description": "Allows you to mimic sound or a physical form, from past experience",
+			"cost": 1
+		},
+		{
+			"name": "Flame Control",
+			"description": "Allows you to manipulate fire",
+			"cost": 1
+		},
+		{
+			"name": "Earth Control",
+			"description": "Allows you to manipulate earth",
+			"cost": 1
+		},
+		{
+			"name": "Aqua Control",
+			"description": "Allows you to manipulate water",
+			"cost": 1
+		},
+		{
+			"name": "Aero Control",
+			"description": "Allows you to manipulate the air around you or enemies",
+			"cost": 1
+		},
+		{
+			"name": "Flame Generation",
+			"description": "Allows you to create fire out of nothing.",
+			"cost": 1
+		},
+		{
+			"name": "Earth Generation",
+			"description": "Allows you to create rock from nothing.",
+			"cost": 1
+		},
+		{
+			"name": "Aqua Generation",
+			"description": "Allows you to create water from nothing.",
+			"cost": 1
+		}
     ],
     "weapons": [
         {
             "name": "Excalibur",
             "description": "lorem ipsum",
-            "requirements": "Skill required"
+            "requirements": "Skill required",
+			"wieled-with": "Two Hands"
         },
         {
-            "name": "Excalibur2",
+            "name": "Kusanagi",
             "description": "lorem ipsum2",
-            "requirements": "Skill2 required"
-        }
+            "requirements": "Skill2 required",
+			"wieled-with": "One Hand"
+        },
+        {
+            "name": "Ru Yi Jing Gu Bang",
+            "description": "lorem ipsum2",
+            "requirements": "Skill2 required",
+			"wieled-with": "Two Hands"
+        },
+        {
+            "name": "Trident",
+            "description": "lorem ipsum2",
+            "requirements": "Skill2 required",
+			"wieled-with": "Two Hands"
+        },
+        {
+            "name": "Mjolnir",
+            "description": "lorem ipsum2",
+            "requirements": "Skill2 required",
+			"wieled-with": "One Hand"
+        },
+		{
+			"name": "clypeus custos",
+			"description": "lorem ipsum",
+			"requirements": "Skill required",
+			"wieled-with": "One Hand"
+		}
     ]
 }
