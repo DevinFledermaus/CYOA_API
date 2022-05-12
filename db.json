@@ -21,6 +21,9 @@
                 {
                     "text": "Take the lockpick, might come in handy.",
                     "setItem": { "lockpick": true, "apples": true },
+                    "setSkill": { "sneak": true },
+                    "setWeapon": { "knife": true },
+                    "setAbility": { "invisibility": true },
                     "nextPage": 3
                 },
                 {
@@ -40,9 +43,25 @@
                 {
                     "text": "Carry on walking.",
                     "nextPage": -1
-                }
+                },
+				{
+					"text": "Eat apple",
+					"requireItem": "(currentPossessedItems) => currentPossessedItems.apples",
+					"setItem": { "apples": false },
+					"nextPage": 4
+				}
             ]
-        }
+        },
+		{
+			"page": 4,
+			"text": "Nourished after eating you carry on walking",
+			"options": [
+				{
+					"text": "You go invisible",
+					"requireSkill": {}
+				}
+			]
+		}
     ],
     "skills": [
         {
