@@ -37,7 +37,7 @@
             "text": "After a few minutes of walking, you notice a door coming up ahead to the right of the passage.",
             "options": [
                 {
-                    "text": "Check the door",
+                    "text": "Pick the door's lock",
                     "nextPage": -1
                 },
                 {
@@ -57,7 +57,9 @@
 			"text": "Nourished after eating you carry on walking",
 			"options": [
 				{
-					"text": "You go invisible"
+					"text": "You go invisible",
+					"requireSkill" : "(currentPossessedItems) => currentPossessedItems.sneak",
+					"nextPage": -1
 				}
 			]
 		}
