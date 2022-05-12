@@ -2,33 +2,29 @@
     "story-texts": [
         {
             "page": 1,
-            "text": "You start awake, with only a flame clinging to a stonewall to provide light.Registering the cold, you find yourself sitting against a bare stonewall and floor, at the end of a passage. You try to collect your thoughts but cant remember anything, your mind goes blank eveytime you try to recall any memory. You stand up and notice a glint of something at the end of the light's reach. You stand up and grab the torch.",
+            "text": "You start awake, with only a flame clinging to a stonewall to provide light.Registering the cold, you find yourself sitting against a bare stonewall and floor, at the end of a passage. You try to collect your thoughts but cant remember anything, your mind goes blank eveytime you try to recall any memory.",
             "options": [
                 {
-                    "text": "Inspect the unknown object.",
+                    "text": "Take some more time trying to recollect your thoughts",
                     "nextPage": 2
                 },
                 {
-                    "text": "Ignore the unknown object",
+                    "text": "Clambering to your feet, you head to grab the torch and head down the passage",
                     "nextPage": 3
                 }
             ]
         },
         {
             "page": 2,
-            "text": "Upon inspecting the object you find out it's a lockpick and torque wrench",
+            "text": "You spend a few minutes trying to form some sort of narrative. How'd you end up in this place? How long have you been here? Some fuzzy memories start surfacing.",
             "options": [
                 {
-                    "text": "Take the lockpick, might come in handy.",
-                    "setItem": { "lockpick": true, "apples": true },
-                    "setSkill": { "sneak": true },
-                    "setWeapon": { "knife": true },
-                    "setAbility": { "invisibility": true },
-                    "nextPage": 3
+                    "text": "You recall a memory of you fighting.",
+                    "nextPage": 4
                 },
                 {
-                    "text": "Ignore the lockpick and start walking.",
-                    "nextPage": 3
+                    "text": "You recall a memory of running away from bullies",
+                    "nextPage": 5
                 }
             ]
         },
@@ -42,24 +38,59 @@
                 },
                 {
                     "text": "Carry on walking.",
-                    "nextPage": 4
-                },
-				{
-					"text": "Eat apple",
-					"requireItem": "(currentPossessedItems) => currentPossessedItems.apples",
-					"setItem": { "apples": false },
-					"nextPage": 4
-				}
+                    "nextPage": -1
+                }
             ]
         },
 		{
 			"page": 4,
-			"text": "Nourished after eating you carry on walking",
+			"text": "You remember your mother scolding you for attacking the school bully with...",
 			"options": [
 				{
-					"text": "You go invisible",
-					"requireSkill" : "(currentPossessedSkills) => currentPossessedSkills.sneak",
-					"nextPage": -1
+					"text": "A knife you stole from the kitchen in the teacher's lounge.",
+					"setSkill": { "Blade-Weapon-Novice": true },
+					"nextPage": 6
+				},
+				{
+					"text": "A rock you pick up on the playground.",
+					"setSkill": { "Blunt-Weapon-Novice": true },
+					"nextPage": 6
+				},
+				{
+					"text": "A rock, you got from the playground, you threw at him. ",
+					"setSkill": { "Marksman-Novice": true },
+					"nextPage": 6
+				},
+				{
+					"text": "With your barehands",
+					"setSkill": { "Brawl-Novice": true },
+					"nextPage": 6
+				}
+			]
+		},
+		{
+			"page": 5,
+			"text": "One particular day you got in trouble with the school bully. But you managed",
+			"options":[
+				{
+					"text": "To avoid them by what seem like mere chance, but it seemed to be much more",
+					"setSkill": { "Sixth-sense": true },
+					"nextPage": 6
+				},
+				{
+					"text": "To constantly avoid the bully by discretely sneaking around them.",
+					"setSkill": { "Sneak": true },
+					"nextPage": 6
+				}
+			]
+		},
+		{
+			"page": 6,
+			"text": "Shaking yourself back to reality, you get to your feet.",
+			"option": [
+				{
+					"text": "head over to grab the torch and start down the passage",
+					"nextPage": 3
 				}
 			]
 		}
