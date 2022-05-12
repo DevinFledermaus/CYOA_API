@@ -58,7 +58,7 @@
 			"options": [
 				{
 					"text": "You go invisible",
-					"requireSkill" : "(currentPossessedItems) => currentPossessedItems.sneak",
+					"requireSkill" : "(currentPossessedSkills) => currentPossessedSkills.sneak",
 					"nextPage": -1
 				}
 			]
