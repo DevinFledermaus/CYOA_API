@@ -264,5 +264,42 @@
 			"requirements": "Skill required",
 			"wieled-with": "One Hand"
 		}
-    ]
+    ],
+	"character-one-story": [
+		{
+            "page": 1,
+            "text": "This is character 1",
+            "options": [
+                {
+                    "text": "Take some more time trying to recollect your thoughts",
+                    "nextPage": 2
+                },
+                {
+                    "text": "Clambering to your feet, you head to grab the torch and head down the passage",
+                    "nextPage": 3
+                }
+            ]
+        }
+	],
+	"character-two-story": [
+		{
+            "page": 1,
+            "text": "This is character 2",
+            "options": [
+                {
+                    "text": "Take some more time trying to recollect your thoughts",
+                    "nextPage": 2
+                },
+                {
+                    "text": "Clambering to your feet, you head to grab the torch and head down the passage",
+                    "nextPage": 3
+                }
+            ]
+        }
+	],
+	"character-three-story": [],
+	"character-four-story": [],
+	"character-five-story": [],
+	"character-six-story": [],
+	"character-seven-story": []
 }
