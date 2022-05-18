@@ -20,11 +20,13 @@
             "options": [
                 {
                     "text": "You recall a memory of you fighting.",
-                    "nextPage": 4
+                    "nextPage": 4,
+					"character": "character-one-story"
                 },
                 {
                     "text": "You recall a memory of running away from bullies",
-                    "nextPage": 5
+                    "nextPage": 5,
+					"character": "character-two-story"
                 }
             ]
         },
