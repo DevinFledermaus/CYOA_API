@@ -19,13 +19,34 @@
             "text": "You spend a few minutes trying to form some sort of narrative. How'd you end up in this place? How long have you been here? Some fuzzy memories start surfacing.",
             "options": [
                 {
-                    "text": "You recall a memory of you fighting.",
+                    "text": "Mastermind",
                     "nextPage": 100,
-					"character": "character-one-story"
+					"character": "mastermind"
                 },
                 {
-                    "text": "You recall a memory of running away from bullies",
-                    "nextPage": 100
+                    "text": "Con Artist.",
+                    "nextPage": 100,
+					"character": "con-man"
+                },
+                {
+                    "text": "Wheelman",
+                    "nextPage": 100,
+					"character": "wheelman"
+                },
+                {
+                    "text": "Gunner",
+                    "nextPage": 100,
+					"character": "gunner"
+                },
+                {
+                    "text": "Thief",
+                    "nextPage": 100,
+					"character": "thief"
+                },
+                {
+                    "text": "Techie",
+                    "nextPage": 100,
+					"character": "techie"
                 }
             ]
         },
@@ -266,10 +287,10 @@
 			"wieled-with": "One Hand"
 		}
     ],
-	"character-one-story": [
+	"mastermind": [
 		{
             "page": 101,
-            "text": "This is character 1",
+            "text": "This is the Master Mind",
             "options": [
                 {
                     "text": "Take some more time trying to recollect your thoughts",
@@ -282,10 +303,10 @@
             ]
         }
 	],
-	"character-two-story": [
+	"con-man": [
 		{
             "page": 101,
-            "text": "This is character 2",
+            "text": "This is the Con Artist",
             "options": [
                 {
                     "text": "Take some more time trying to recollect your thoughts",
@@ -298,9 +319,68 @@
             ]
         }
 	],
-	"character-three-story": [],
-	"character-four-story": [],
-	"character-five-story": [],
-	"character-six-story": [],
-	"character-seven-story": []
+	"wheelman": [
+		{
+            "page": 101,
+            "text": "This is the Wheelman",
+            "options": [
+                {
+                    "text": "Take some more time trying to recollect your thoughts",
+                    "nextPage": 103
+                },
+                {
+                    "text": "Clambering to your feet, you head to grab the torch and head down the passage",
+                    "nextPage": 103
+                }
+            ]
+        }
+	],
+	"gunner": [
+		{
+            "page": 101,
+            "text": "This is the Gunner",
+            "options": [
+                {
+                    "text": "Take some more time trying to recollect your thoughts",
+                    "nextPage": 103
+                },
+                {
+                    "text": "Clambering to your feet, you head to grab the torch and head down the passage",
+                    "nextPage": 103
+                }
+            ]
+        }
+	],
+	"thief": [
+		{
+            "page": 101,
+            "text": "This is the thief",
+            "options": [
+                {
+                    "text": "Take some more time trying to recollect your thoughts",
+                    "nextPage": 103
+                },
+                {
+                    "text": "Clambering to your feet, you head to grab the torch and head down the passage",
+                    "nextPage": 103
+                }
+            ]
+        }
+	],
+	"techie": [
+		{
+            "page": 101,
+            "text": "This is the techie",
+            "options": [
+                {
+                    "text": "Take some more time trying to recollect your thoughts",
+                    "nextPage": 103
+                },
+                {
+                    "text": "Clambering to your feet, you head to grab the torch and head down the passage",
+                    "nextPage": 103
+                }
+            ]
+        }
+	]
 }
