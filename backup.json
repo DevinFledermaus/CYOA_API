@@ -1,0 +1,386 @@
+{
+    "prologue": [
+        {
+            "page": 1,
+            "text": "You start awake, with only a flame clinging to a stonewall to provide light.Registering the cold, you find yourself sitting against a bare stonewall and floor, at the end of a passage. You try to collect your thoughts but cant remember anything, your mind goes blank eveytime you try to recall any memory.",
+            "options": [
+                {
+                    "text": "Take some more time trying to recollect your thoughts",
+                    "nextPage": 2
+                },
+                {
+                    "text": "Clambering to your feet, you head to grab the torch and head down the passage",
+                    "nextPage": 3
+                }
+            ]
+        },
+        {
+            "page": 2,
+            "text": "You spend a few minutes trying to form some sort of narrative. How'd you end up in this place? How long have you been here? Some fuzzy memories start surfacing.",
+            "options": [
+                {
+                    "text": "Mastermind",
+                    "nextPage": 100,
+					"character": "mastermind"
+                },
+                {
+                    "text": "Con Artist.",
+                    "nextPage": 100,
+					"character": "con-man"
+                },
+                {
+                    "text": "Wheelman",
+                    "nextPage": 100,
+					"character": "wheelman"
+                },
+                {
+                    "text": "Gunner",
+                    "nextPage": 100,
+					"character": "gunner"
+                },
+                {
+                    "text": "Thief",
+                    "nextPage": 100,
+					"character": "thief"
+                },
+                {
+                    "text": "Techie",
+                    "nextPage": 100,
+					"character": "techie"
+                }
+            ]
+        },
+        {
+            "page": 3,
+            "text": "After a few minutes of walking, you notice a door coming up ahead to the right of the passage.",
+            "options": [
+                {
+                    "text": "Pick the door's lock",
+                    "nextPage": -1
+                },
+                {
+                    "text": "Carry on walking.",
+                    "nextPage": -1
+                }
+            ]
+        },
+		{
+			"page": 4,
+			"text": "You remember your mother scolding you for attacking the school bully with...",
+			"options": [
+				{
+					"text": "A knife you stole from the kitchen in the teacher's lounge.",
+					"setSkill": { "Blade-Weapon-Novice": true },
+					"nextPage": 6
+				},
+				{
+					"text": "A rock you pick up on the playground.",
+					"setSkill": { "Blunt-Weapon-Novice": true },
+					"nextPage": 6
+				},
+				{
+					"text": "A rock, you got from the playground, you threw at him. ",
+					"setSkill": { "Marksman-Novice": true },
+					"nextPage": 6
+				},
+				{
+					"text": "With your barehands",
+					"setSkill": { "Brawl-Novice": true },
+					"nextPage": 6
+				}
+			]
+		},
+		{
+			"page": 5,
+			"text": "One particular day you got in trouble with the school bully. But you managed",
+			"options":[
+				{
+					"text": "To avoid them by what seem like mere chance, but it seemed to be much more",
+					"setSkill": { "Sixth-sense": true },
+					"nextPage": 6
+				},
+				{
+					"text": "To constantly avoid the bully by discretely sneaking around them.",
+					"setSkill": { "Sneak": true },
+					"nextPage": 6
+				}
+			]
+		},
+		{
+			"page": 6,
+			"text": "Shaking yourself back to reality, you get to your feet.",
+			"options": [
+				{
+					"text": "head over to grab the torch and start down the passage",
+					"nextPage": 3
+				}
+			]
+		}
+    ],
+    "skills": [
+        {
+            "name": "Bladed Weapon Novice",
+            "description": "lorem ipsum"
+        },
+        {
+            "name": "Blunt Weapon Novice",
+            "description": "lorem ipsum"
+        },
+		{
+			"name": "Marksman Novice",
+			"description": "lorem ipsum"
+		},
+		{
+			"name": "Brawl Novice",
+			"description":"lorem ipsum"
+		},
+		{
+            "name": "Bladed Weapon Expert",
+            "description": "lorem ipsum"
+        },
+        {
+            "name": "Blunt Weapon Expert",
+            "description": "lorem ipsum"
+        },
+		{
+			"name": "Marksman Expert",
+			"description": "lorem ipsum"
+		},
+		{
+			"name": "Brawl Expert",
+			"description":"lorem ipsum"
+		},
+		{
+            "name": "Bladed Weapon Master",
+            "description": "lorem ipsum"
+        },
+        {
+            "name": "Blunt Weapon Master",
+            "description": "lorem ipsum"
+        },
+		{
+			"name": "Marksman Master",
+			"description": "lorem ipsum"
+		},
+		{
+			"name": "Brawl Master",
+			"description":"lorem ipsum"
+		},
+		{
+			"name": "Sneak",
+			"description": "Allows you to remain undetected while traversing"
+		},
+		{
+			"name": "Tracking",
+			"description": "Allows you to make the correct choice of path, locate a person or object and read footprints or tracks."
+		},
+		{
+			"name": "Survival",
+			"description": "Allows you to "
+		},
+		{
+			"name": "Sixth-sense",
+			"description": "Will warn of imminent danger, can also give insight to a person or object's true purpose."
+		},
+		{
+			"name": "Camouflage",
+			"description": "Allows you to blend in with your surroundings. In cities or towns, it allows you to look and sound like a native."
+		}
+    ],
+    "abilities": [
+        {
+            "name": "Replicate",
+            "description": "Create free thinking clones of yourself",
+            "cost": 1
+        },
+        {
+            "name": "Spatial Gate",
+            "description": "Teleport to any previously visited locations",
+            "cost": 3
+        },
+        {
+            "name": "Spatial Dash",
+            "description": "Teleport to a location within set, within a range",
+            "cost": 1
+        },
+		{
+			"name": "Illusion Weaving",
+			"description": "Allows you to target 1 or all five senses and deploy false sensations to a targeted being.",
+			"cost": 1
+		},
+		{
+			"name": "Mimicry",
+			"description": "Allows you to mimic sound or a physical form, from past experience",
+			"cost": 1
+		},
+		{
+			"name": "Flame Control",
+			"description": "Allows you to manipulate fire",
+			"cost": 1
+		},
+		{
+			"name": "Earth Control",
+			"description": "Allows you to manipulate earth",
+			"cost": 1
+		},
+		{
+			"name": "Aqua Control",
+			"description": "Allows you to manipulate water",
+			"cost": 1
+		},
+		{
+			"name": "Aero Control",
+			"description": "Allows you to manipulate the air around you or enemies",
+			"cost": 1
+		},
+		{
+			"name": "Flame Generation",
+			"description": "Allows you to create fire out of nothing.",
+			"cost": 1
+		},
+		{
+			"name": "Earth Generation",
+			"description": "Allows you to create rock from nothing.",
+			"cost": 1
+		},
+		{
+			"name": "Aqua Generation",
+			"description": "Allows you to create water from nothing.",
+			"cost": 1
+		}
+    ],
+    "weapons": [
+        {
+            "name": "Excalibur",
+            "description": "lorem ipsum",
+            "requirements": "Skill required",
+			"wieled-with": "Two Hands"
+        },
+        {
+            "name": "Kusanagi",
+            "description": "lorem ipsum2",
+            "requirements": "Skill2 required",
+			"wieled-with": "One Hand"
+        },
+        {
+            "name": "Ru Yi Jing Gu Bang",
+            "description": "lorem ipsum2",
+            "requirements": "Skill2 required",
+			"wieled-with": "Two Hands"
+        },
+        {
+            "name": "Trident",
+            "description": "lorem ipsum2",
+            "requirements": "Skill2 required",
+			"wieled-with": "Two Hands"
+        },
+        {
+            "name": "Mjolnir",
+            "description": "lorem ipsum2",
+            "requirements": "Skill2 required",
+			"wieled-with": "One Hand"
+        },
+		{
+			"name": "clypeus custos",
+			"description": "lorem ipsum",
+			"requirements": "Skill required",
+			"wieled-with": "One Hand"
+		}
+    ],
+	"mastermind": [
+		{
+            "page": 101,
+            "text": "This is the Master Mind",
+            "options": [
+                {
+                    "text": "Take some more time trying to recollect your thoughts",
+                    "nextPage": 103
+                },
+                {
+                    "text": "Clambering to your feet, you head to grab the torch and head down the passage",
+                    "nextPage": 103
+                }
+            ]
+        }
+	],
+	"con-man": [
+		{
+            "page": 101,
+            "text": "This is the Con Artist",
+            "options": [
+                {
+                    "text": "Take some more time trying to recollect your thoughts",
+                    "nextPage": 103
+                },
+                {
+                    "text": "Clambering to your feet, you head to grab the torch and head down the passage",
+                    "nextPage": 103
+                }
+            ]
+        }
+	],
+	"wheelman": [
+		{
+            "page": 101,
+            "text": "This is the Wheelman",
+            "options": [
+                {
+                    "text": "Take some more time trying to recollect your thoughts",
+                    "nextPage": 103
+                },
+                {
+                    "text": "Clambering to your feet, you head to grab the torch and head down the passage",
+                    "nextPage": 103
+                }
+            ]
+        }
+	],
+	"gunner": [
+		{
+            "page": 101,
+            "text": "This is the Gunner",
+            "options": [
+                {
+                    "text": "Take some more time trying to recollect your thoughts",
+                    "nextPage": 103
+                },
+                {
+                    "text": "Clambering to your feet, you head to grab the torch and head down the passage",
+                    "nextPage": 103
+                }
+            ]
+        }
+	],
+	"thief": [
+		{
+            "page": 101,
+            "text": "This is the thief",
+            "options": [
+                {
+                    "text": "Take some more time trying to recollect your thoughts",
+                    "nextPage": 103
+                },
+                {
+                    "text": "Clambering to your feet, you head to grab the torch and head down the passage",
+                    "nextPage": 103
+                }
+            ]
+        }
+	],
+	"techie": [
+		{
+            "page": 101,
+            "text": "This is the techie",
+            "options": [
+                {
+                    "text": "Take some more time trying to recollect your thoughts",
+                    "nextPage": 103
+                },
+                {
+                    "text": "Clambering to your feet, you head to grab the torch and head down the passage",
+                    "nextPage": 103
+                }
+            ]
+        }
+	]
+}
