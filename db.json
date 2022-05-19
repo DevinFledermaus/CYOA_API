@@ -1,4 +1,15 @@
 {
+	"Stories": [
+		{
+			"name": "Horror"
+		},
+		{
+			"name": "Heist"
+		},
+		{
+			"name": "Precious-Metals"
+		}
+	],
     "Horror": [
 		{
 			"name": "",
@@ -11,8 +22,8 @@
 		{
 			"name": "",
 			"prologue": [],
-			"story": [],
-			"epilogue": []
+			"char1": [],
+			"char2": []
 		}
 	],
 	"Precious-Metals": [
