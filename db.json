@@ -1,5 +1,26 @@
 {
-    "Horror": [],
-	"Heist": [],
-	"Precious-Metals": []
+    "Horror": [
+		{
+			"name": "",
+			"prologue": [],
+			"story": [],
+			"epilogue": []
+		}
+	],
+	"Heist": [
+		{
+			"name": "",
+			"prologue": [],
+			"story": [],
+			"epilogue": []
+		}
+	],
+	"Precious-Metals": [
+		{
+			"name": "",
+			"prologue": [],
+			"story": [],
+			"epilogue": []
+		}
+	]
 }
