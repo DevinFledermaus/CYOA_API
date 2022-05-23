@@ -39,10 +39,38 @@
 					"options": [
 						{
 							"text": "HORROR Blah",
-							"prologue": "completed"
+							"nextPage": 2
 						},
 						{
 							"text": "Blah",
+							"nextPage": 3
+						}
+					]
+				},
+				{
+					"page": 2,
+					"text": "Horror Prologue Text 2",
+					"options": [
+						{
+							"text": "HORROR Blah Blah",
+							"nextPage": -1
+						},
+						{
+							"text": "Blah Blah",
+							"nextPage": -1
+						}
+					]
+				},
+				{
+					"page": 3,
+					"text": "Horror Prologue Text 3",
+					"options": [
+						{
+							"text": "HORROR Blah Blah Blah",
+							"prologue": "completed"
+						},
+						{
+							"text": "Blah Blah Blah",
 							"prologue": "completed"
 						}
 					]
@@ -50,16 +78,30 @@
 			],
 			"story": [
 				{
-					"page": 101,
+					"page": 1,
 					"text": "Horror Story Text",
 					"options": [
 						{
 							"text": "Option 1",
-							"nextPage": 103
+							"nextPage": 2
 						},
 						{
 							"text": "Option 2",
-							"nextPage": 103
+							"nextPage": -1
+						}
+					]
+				},
+				{
+					"page": 2,
+					"text": "Horror Story Text 2",
+					"options": [
+						{
+							"text": "Option 1",
+							"nextPage": -1
+						},
+						{
+							"text": "Option 2",
+							"nextPage": -1
 						}
 					]
 				}
@@ -74,8 +116,32 @@
 					"text": "Heist Prologue Text",
 					"options": [
 						{
+							"text": "Heist Blah"
+						},
+						{
+							"text": "Blah"
+						}
+					]
+				},
+				{
+					"page": 2,
+					"text": "Heist Prologue Text",
+					"options": [
+						{
 							"text": "Char 1 Select",
-							"character": "char1",
+							"character": "char1"
+						},
+						{
+							"text": "Blah Blah"
+						}
+					]
+				},
+				{
+					"page": 3,
+					"text": "Heist Prologue Text",
+					"options": [
+						{
+							"text": "Blah Blah Blah",
 							"prologue": "completed"
 						},
 						{
