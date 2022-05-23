@@ -38,10 +38,12 @@
 					"text": "Horror Prologue Text",
 					"options": [
 						{
-							"text": "HORROR Blah"
+							"text": "HORROR Blah",
+							"prologue": "completed"
 						},
 						{
-							"text": "Blah"
+							"text": "Blah",
+							"prologue": "completed"
 						}
 					]
 				}
@@ -73,11 +75,13 @@
 					"options": [
 						{
 							"text": "Char 1 Select",
-							"character": "char1"
+							"character": "char1",
+							"prologue": "completed"
 						},
 						{
 							"text": "Char 2 Select",
-							"character": "char2"
+							"character": "char2",
+							"prologue": "completed"
 						}
 					]
 				}
