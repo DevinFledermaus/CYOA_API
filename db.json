@@ -16,7 +16,16 @@
 				{
 					"page": 1,
 					"text": "Default Text",
-					"options": []
+					"options": [
+						{
+							"text": "Blah",
+							"nextPage": -1
+						},
+						{
+							"text": "Blah",
+							"nextPage": -1
+						}
+					]
 				}
 			]
 		}
@@ -26,7 +35,17 @@
 			"prologue": [
 				{
 					"page": 1,
-					"text": "Horror Prologue Text"
+					"text": "Horror Prologue Text",
+					"options": [
+						{
+							"text": "HORROR Blah",
+							"nextPage": -1
+						},
+						{
+							"text": "Blah",
+							"nextPage": -1
+						}
+					]
 				}
 			],
 			"story": [],
@@ -38,7 +57,17 @@
 			"prologue": [
 				{
 					"page": 1,
-					"text": "Heist Prologue Text"
+					"text": "Heist Prologue Text",
+					"options": [
+						{
+							"text": "HEIST Blah",
+							"nextPage": -1
+						},
+						{
+							"text": "Blah",
+							"nextPage": -1
+						}
+					]
 				}
 			],
 			"char1": [],
@@ -50,7 +79,17 @@
 			"prologue": [
 				{
 					"page": 1,
-					"text": "Precious-Metal Prologue Text"
+					"text": "Precious-Metal Prologue Text",
+					"options": [
+						{
+							"text": "PM Blah",
+							"nextPage": -1
+						},
+						{
+							"text": "Blah",
+							"nextPage": -1
+						}
+					]
 				}
 			],
 			"story": [],
