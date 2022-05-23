@@ -15,7 +15,8 @@
 			"default": [
 				{
 					"page": 1,
-					"text": "Default Text"
+					"text": "Default Text",
+					"options": []
 				}
 			]
 		}
