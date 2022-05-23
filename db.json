@@ -1,5 +1,5 @@
 {
-	"Stories": [
+	"stories": [
 		{
 			"name": "Horror"
 		},
@@ -10,26 +10,48 @@
 			"name": "Precious-Metals"
 		}
 	],
+	"default": [
+		{
+			"default": [
+				{
+					"page": 1,
+					"text": "Default Text"
+				}
+			]
+		}
+	],
     "Horror": [
 		{
-			"name": "",
-			"prologue": [],
+			"prologue": [
+				{
+					"page": 1,
+					"text": "Horror Prologue Text"
+				}
+			],
 			"story": [],
 			"epilogue": []
 		}
 	],
 	"Heist": [
 		{
-			"name": "",
-			"prologue": [],
+			"prologue": [
+				{
+					"page": 1,
+					"text": "Heist Prologue Text"
+				}
+			],
 			"char1": [],
 			"char2": []
 		}
 	],
 	"Precious-Metals": [
 		{
-			"name": "",
-			"prologue": [],
+			"prologue": [
+				{
+					"page": 1,
+					"text": "Precious-Metal Prologue Text"
+				}
+			],
 			"story": [],
 			"epilogue": []
 		}
