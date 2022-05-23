@@ -38,12 +38,10 @@
 					"text": "Horror Prologue Text",
 					"options": [
 						{
-							"text": "HORROR Blah",
-							"nextPage": -1
+							"text": "HORROR Blah"
 						},
 						{
-							"text": "Blah",
-							"nextPage": -1
+							"text": "Blah"
 						}
 					]
 				}
@@ -75,12 +73,10 @@
 					"options": [
 						{
 							"text": "Char 1 Select",
-							"nextPage": -1,
 							"character": "char1"
 						},
 						{
 							"text": "Char 2 Select",
-							"nextPage": -1,
 							"character": "char2"
 						}
 					]
