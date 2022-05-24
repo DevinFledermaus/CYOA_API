@@ -7,7 +7,7 @@
 			"name": "Heist"
 		},
 		{
-			"name": "Precious-Metals"
+			"name": "Million-Year-Quest"
 		}
 	],
 	"default": [
@@ -186,7 +186,7 @@
 			]
 		}
 	],
-	"Precious-Metals": [
+	"Million-Year-Quest": [
 		{
 			"prologue": [
 				{
