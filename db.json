@@ -116,10 +116,12 @@
 					"text": "Heist Prologue Text",
 					"options": [
 						{
-							"text": "Heist Blah"
+							"text": "Next Page",
+							"nextPage": 2
 						},
 						{
-							"text": "Blah"
+							"text": "Trap",
+							"nextPage": 0
 						}
 					]
 				},
@@ -128,11 +130,12 @@
 					"text": "Heist Prologue Text",
 					"options": [
 						{
-							"text": "Char 1 Select",
-							"character": "char1"
+							"text": "Trap",
+							"nextpage": 0
 						},
 						{
-							"text": "Blah Blah"
+							"text": "Next Page",
+							"nextPage": 3
 						}
 					]
 				},
@@ -142,17 +145,150 @@
 					"options": [
 						{
 							"text": "Blah Blah Blah",
-							"prologue": "completed"
+							"nextPage": 0
 						},
 						{
-							"text": "Char 2 Select",
-							"character": "char2",
-							"prologue": "completed"
+							"text": "Got to character selection",
+							"nextPage": 69
+						}
+					]
+				},
+				{
+					"page": 69,
+					"text": "Here's were on would select their character",
+					"options": [
+						{
+							"text": "Master Mind",
+							"nextPage": 71
+						},
+						{
+							"text": "Con Artist",
+							"nextPage": 72
+						},
+						{
+							"text": "Gunner",
+							"nextPage": 73
+						},
+						{
+							"text": "Next",
+							"nextPage": 70
+						}
+					]
+				},
+				{
+					"page": 70,
+					"text": "Here's were on would select their character",
+					"options": [
+						{
+							"text": "Techie",
+							"nextPage": 74
+						},
+						{
+							"text": "Thief",
+							"nextPage": 75
+						},
+						{
+							"text": "Wheel Man",
+							"nextPage": 76
+						},
+						{
+							"text": "Back",
+							"nextPage": 69
+						}
+					]
+				},
+				{
+					"page": 71,
+					"text": "Master Mind:",
+					"options": [
+						{
+							"text": "Yes",
+							"prologue": "completed",
+							"character": "mastermind"
+						},
+						{
+							"text": "No",
+							"nextPage": 69
+						}
+					]
+				},
+				{
+					"page": 72,
+					"text": "Con Artist:",
+					"options": [
+						{
+							"text": "Yes",
+							"prologue": "completed",
+							"character": "con-artist"
+						},
+						{
+							"text": "No",
+							"nextPage": 69
+						}
+					]
+				},
+				{
+					"page": 73,
+					"text": "Gunner:",
+					"options": [
+						{
+							"text": "Yes",
+							"prologue": "completed",
+							"character": "gunner"
+						},
+						{
+							"text": "No",
+							"nextPage": 69
+						}
+					]
+				},
+				{
+					"page": 74,
+					"text": "Techie:",
+					"options": [
+						{
+							"text": "Yes",
+							"prologue": "completed",
+							"character": "techie"
+						},
+						{
+							"text": "No",
+							"nextPage": 70
+						}
+					]
+				},
+				{
+					"page": 75,
+					"text": "Thief:",
+					"options": [
+						{
+							"text": "Yes",
+							"prologue": "completed",
+							"character": "thief"
+						},
+						{
+							"text": "No",
+							"nextPage": 70
+						}
+					]
+				},
+				{
+					"page": 76,
+					"text": "Wheel Man:",
+					"options": [
+						{
+							"text": "Yes",
+							"prologue": "completed",
+							"character": "wheel-man"
+						},
+						{
+							"text": "No",
+							"nextPage": 70
 						}
 					]
 				}
 			],
-			"char1": [
+			"mastermind": [
 				{
 					"page": 101,
 					"text": "Heist Char1 Story Text",
@@ -168,7 +304,71 @@
 					]
 				}
 			],
-			"char2": [
+			"con-artist": [
+				{
+					"page": 101,
+					"text": "Heist Char1 Story Text",
+					"options": [
+						{
+							"text": "Option 1",
+							"nextPage": 103
+						},
+						{
+							"text": "Option 2",
+							"nextPage": 103
+						}
+					]
+				}
+			],
+			"gunner": [
+				{
+					"page": 101,
+					"text": "Heist Char1 Story Text",
+					"options": [
+						{
+							"text": "Option 1",
+							"nextPage": 103
+						},
+						{
+							"text": "Option 2",
+							"nextPage": 103
+						}
+					]
+				}
+			],
+			"techie": [
+				{
+					"page": 101,
+					"text": "Heist Char1 Story Text",
+					"options": [
+						{
+							"text": "Option 1",
+							"nextPage": 103
+						},
+						{
+							"text": "Option 2",
+							"nextPage": 103
+						}
+					]
+				}
+			],
+			"thief": [
+				{
+					"page": 101,
+					"text": "Heist Char1 Story Text",
+					"options": [
+						{
+							"text": "Option 1",
+							"nextPage": 103
+						},
+						{
+							"text": "Option 2",
+							"nextPage": 103
+						}
+					]
+				}
+			],
+			"wheel-man": [
 				{
 					"page": 101,
 					"text": "Heist Char1 Story Text",
