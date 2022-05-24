@@ -191,20 +191,77 @@
 			"prologue": [
 				{
 					"page": 1,
-					"text": "Precious-Metal Prologue Text",
+					"text": "Quest Prologue Text",
 					"options": [
 						{
-							"text": "PM Blah",
-							"nextPage": -1
+							"text": "Heist Blah"
 						},
 						{
-							"text": "Blah",
-							"nextPage": -1
+							"text": "Blah"
+						}
+					]
+				},
+				{
+					"page": 2,
+					"text": "Quest Prologue Text",
+					"options": [
+						{
+							"text": "Char 1 Select",
+							"character": "char1"
+						},
+						{
+							"text": "Blah Blah"
+						}
+					]
+				},
+				{
+					"page": 3,
+					"text": "Quest Prologue Text",
+					"options": [
+						{
+							"text": "Blah Blah Blah",
+							"prologue": "completed"
+						},
+						{
+							"text": "Char 2 Select",
+							"character": "char2",
+							"prologue": "completed"
 						}
 					]
 				}
 			],
-			"story": []
+			"char1": [
+				{
+					"page": 101,
+					"text": "Quest Char1 Story Text",
+					"options": [
+						{
+							"text": "Option 1",
+							"nextPage": 103
+						},
+						{
+							"text": "Option 2",
+							"nextPage": 103
+						}
+					]
+				}
+			],
+			"char2": [
+				{
+					"page": 101,
+					"text": "Quest Char1 Story Text",
+					"options": [
+						{
+							"text": "Option 1",
+							"nextPage": 103
+						},
+						{
+							"text": "Option 2",
+							"nextPage": 103
+						}
+					]
+				}
+			]
 		}
 	]
 }
