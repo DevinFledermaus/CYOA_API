@@ -35,42 +35,38 @@
 			"prologue": [
 				{
 					"page": 1,
-					"text": "Horror Prologue Text",
+					"text": "The moon sit in its zenith in the night sky, cold wind tugging at your coat. You pop your collar as you stand at the entrance of the church to prevent the breeze from cutting at your neck. You've been tailing the pastor of the church for quite a few days now and think you have their patterns down. After church he'll head straight to the work house to stack up a couple of sins.",
 					"options": [
 						{
-							"text": "HORROR Blah",
+							"text": "Continue",
 							"nextPage": 2
-						},
-						{
-							"text": "Blah",
-							"nextPage": 3
 						}
 					]
 				},
 				{
 					"page": 2,
-					"text": "Horror Prologue Text 2",
+					"text": "He does exactly what you expected, throwing back drinks, partaking in drugs and harassing the girls. Your blood runs hot seeing him, everything he stands for is just all a visage. But you bide your time, he'll get his justice. After a few hours, he downs his last drink and stumble out to head home. This being a small town, it makes it much easier to follow him around, as most people walk around. After a few blocks, the pastor starts getting paranoid, understandable, as there's been a body found every morning of the month.",
 					"options": [
 						{
-							"text": "HORROR Blah Blah",
-							"nextPage": -1
-						},
-						{
-							"text": "Blah Blah",
-							"nextPage": -1
+							"text": "Continue",
+							"nextPage": 3
 						}
 					]
 				},
 				{
 					"page": 3,
-					"text": "Horror Prologue Text 3",
+					"text": "Snapping out of your trance you realise you gotten closer than desired, but the man is too drunk to have noticed. You slow your pace to match the stumbling man's and carry on following. A cat jumping out makes the man panic and he starts tensing up, with him on alert you freeze and tuck a bit closer to the wall. Looking around he notices you and calls out.",
 					"options": [
 						{
-							"text": "HORROR Blah Blah Blah",
+							"text": "You duck into an alley.",
 							"prologue": "completed"
 						},
 						{
-							"text": "Blah Blah Blah",
+							"text": "You stay where you are and don't move.",
+							"prologue": "completed"
+						},
+						{
+							"text": "You cross the street in an attempt to ease the man.",
 							"prologue": "completed"
 						}
 					]
